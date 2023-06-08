@@ -1,9 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu116
+
 jupyter==1.0.0
 
 numpy==1.24.3
 pandas==2.0.2
 gensim==4.3.1
-torch==1.12.1
+torch==1.12.1+cu116
 pytorch-lightning==2.0.2
 scikit-learn==1.2.2
 tensorboard==2.13.0
